@@ -28,4 +28,14 @@ Getting Started:
         * SSH
         * Windows- PuTTY
         * Mac - Terminal /ssh command line utility
+
+
+    Summary:
+    =========
+
+        * If you have physical access or if the linux system is running in a VM, log in directly.
+        * To log in over the network, use SSH.
+        * PuTTY is an Windows SSH client.
+        * command line utility ssh is used in MAC.
+
         
