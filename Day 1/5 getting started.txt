@@ -1,0 +1,31 @@
+Getting Started:
+=================
+
+    * How to log into Linux
+    * What SSH is
+    * Which SSH clients to use.
+
+
+    Connect directly:
+    ===================
+
+        * Log into using GUI
+        * Open a terminal
+
+    Open a terminal:
+    ===============
+
+      * Applications => System Tools => Terminal
+
+    Log into the CLI:
+    ===================
+
+    * Login into Server edition using CLI
+
+    Connecting over the N/w:
+    ========================
+
+        * SSH
+        * Windows- PuTTY
+        * Mac - Terminal /ssh command line utility
+        
