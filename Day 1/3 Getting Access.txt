@@ -1,0 +1,41 @@
+Getting Access:
+=================
+
+ Terminal Emulator:
+ ==================
+
+ 	* Terminals were how people primarily interacted with computers.
+ 	* Acts as a Terminal
+ 	* Used to interact with your local computer.
+	* Visit simpleshell.com , webminal.org and linuxzoo.net
+
+Ways to get access to linux:
+============================
+
+	* Web based CLI
+	* Web hosting shell accounts
+	* SSH - Secure Shell
+	* VPS (virtual private server) or Cloud server.
+	* Live Linux Distro
+	* Install on hardware
+
+Virtualbox:
+===========
+
+	Virtualbox is Virtualization s/w. (Host and Guest OS)
+	FOSS
+	Mac, Windows and Linux.
+
+
+Summary:
+==========
+
+	* Web Access
+	* Linux access from a hosting provider.
+	* Install on hardware
+	* Install in VM
+
+
+
+
+ 	
