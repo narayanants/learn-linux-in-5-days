@@ -1,0 +1,8 @@
+Installing linux using an Image with virtualbox:
+===============================================
+
+
+    * https://virtualboximages.com for VDI's of Distro's 
+    * FWinunRAR for windows.
+    * unrarx.com for MAC users.
+
