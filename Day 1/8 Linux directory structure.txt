@@ -126,7 +126,7 @@ Complete Directory structure:
     
 
     Application directory:
-    =============
+    =====================
 
         /opt/avg/bin
         /opt/avg/etc
