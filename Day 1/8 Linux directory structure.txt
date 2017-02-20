@@ -3,13 +3,13 @@ Linux Directory structure:
 
  /    - Root Directory, the top of the file system hierarchy.
 
- /bin - Binaries and other executable programs. Binaries are just 0's and 1'structure
+ /bin - Binaries and other executable programs. Binaries are just 0's and 1'structure.
 
  /etc - Contains system configuration files. Control how OS/Apps behave.
 
- /home - User home directories. Store documents 
+ /home - User home directories. Store documents. 
 
- /opt - optinal or 3rd party s/w lives. Google Earth gets installed in /opt
+ /opt - optinal or 3rd party s/w lives. Google Earth gets installed in /opt.
 
  /temp - Temporary space,typically cleared on reboot.
 
