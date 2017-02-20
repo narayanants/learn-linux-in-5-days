@@ -1,0 +1,107 @@
+Linux Directory structure:
+==========================
+
+ /    - Root Directory, the top of the file system hierarchy.
+
+ /bin - Binaries and other executable programs. Binaries are just 0's and 1'structure
+
+ /etc - Contains system configuration files. Control how OS/Apps behave.
+
+ /home - User home directories. Store documents 
+
+ /opt - optinal or 3rd party s/w lives. Google Earth gets installed in /opt
+
+ /temp - Temporary space,typically cleared on reboot.
+
+ /usr - User related programs live.
+
+ /var - variable data. Data that changes often.
+
+
+
+Comprehensive Directory structure:
+==================================
+
+ /boot - Files needed to boot the OS.
+
+ /cdrom - mount point for CD ROM's 
+
+ /cgroup - Control Groups hierarchy.
+
+ /dev - Device files, typically controlled by the OS and sysadmin's.
+
+ /export - Shared file systems
+
+ /lib - System Libraries.
+
+ /lib64 - System Libraries, 64 bit
+
+ /lost+found - used bt the file system to store recovered files after a file system check has been performed.
+
+ /media - Used to mount removable media like CD ROM's
+
+ /mnt - used to mount external file system.
+
+ /proc - provides info about running processes.
+
+ /root - the home directory for the root account.
+
+ /sbin - system administrators binaries.
+
+ /selinux - used to display info about SELinux. ( Security Enhanced Linux is a linux kernel security module that provides mechanism for supporting access control policies including US DoD style Mandatory Access Control(MAC))
+
+
+Other Linux Distro's:
+======================
+
+/srv - Contains data  which is served by the system.
+
+/srv/www - Web server files.
+
+/srv/ftp - FTP files.
+
+/sys - used to display and configure the devices known to the linux kernel.
+
+/tmp - Temporary space,typically cleared on reboot.
+
+
+User related directories:
+===========================
+
+    /usr - user related programs,files and docs.
+
+    /usr/bin - Binaries and other executable programs.
+
+    /usr/lib - Libraries
+
+    /usr/local - Locally installed s/w that is not part of the base operating system.
+
+    /usr/sbin - System administrators binaries.
+
+    /var - variable data, mostly notably log files.
+
+    /var/log - Log files.
+
+
+
+Application Directory structure:
+=================================
+
+    /usr/local/crashplan/bin
+
+    /usr/local/crashplan/etc
+
+    /usr/local/crashplan/lib
+
+    /usr/local/crashplan/log
+
+
+
+
+
+
+
+
+
+
+
