@@ -30,13 +30,13 @@ Comprehensive Directory structure:
 
  /dev - Device files, typically controlled by the OS and sysadmin's.
 
- /export - Shared file systems
+ /export - Shared file systems.
 
  /lib - System Libraries.
 
  /lib64 - System Libraries, 64 bit
 
- /lost+found - used bt the file system to store recovered files after a file system check has been performed.
+ /lost+found - used by the file system to store recovered files after a file system check has been performed.
 
  /media - Used to mount removable media like CD ROM's
 
@@ -94,6 +94,98 @@ Application Directory structure:
     /usr/local/crashplan/lib
 
     /usr/local/crashplan/log
+
+
+Complete Directory structure:
+==============================
+
+
+    / 
+    /bin
+    /etc
+    /home
+    /usr
+    /opt
+    /temp
+    /var
+    /boot
+    /media
+    /cdrom
+    /cgroup
+    /dev
+    /export
+    /lib
+    /lib64
+    /lost+found
+    /media
+    /mnt
+    /proc
+    /sbin
+    /selinux
+
+    
+
+    Application directory:
+    =============
+
+        /opt/avg/bin
+        /opt/avg/etc
+        /opt/avg/lib
+        /opt/avg/log
+
+    Other variants:
+    ==============
+
+        * /etc/opt/myapp
+        * /opt/myapp/bin
+        * /opt/myapp/lib
+        * /var/opt/myapp
+    
+
+    Application Directory Structure:
+    =================================
+
+        * /usr/local/bin/myapp
+        * /usr/local/etc/myapp.conf
+        * /usr/local/lib/libmyspp.so
+
+    
+    Organization structure:
+    ========================
+        
+        
+        /opt/acme
+        /opt/acme/bin
+        /opt/acme/etc
+
+    Google:
+    ==========
+
+        /opt/google
+        /opt/google/chrome
+        /opt/google/Earth
+
+    
+    Most common top level directories:
+    ==================================
+
+    /
+    /bin
+    /etc
+    /home
+    /opt
+    /tmp
+    /usr
+    /var
+
+    Apps that are not part of the OS:
+    ===================================
+
+    * /usr/local
+    * /opt
+
+
+
 
 
 
