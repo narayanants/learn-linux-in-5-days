@@ -6,3 +6,5 @@ Take it easy:
         Start virtualbox.
         Start VM.
         Type into the window to interact directly with the VM.
+
+    Connecting to VM via network at the end of the course.
