@@ -1,0 +1,8 @@
+Take it easy:
+=============
+
+    * Connect directly to the VM.
+
+        Start virtualbox.
+        Start VM.
+        Type into the window to interact directly with the VM.
