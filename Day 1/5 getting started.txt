@@ -27,7 +27,7 @@ Getting Started:
 
         * SSH
         * Windows- PuTTY
-        * Mac - Terminal /ssh command line utility
+        * Mac - Terminal 'ssh' command line utility
 
 
     Summary:
