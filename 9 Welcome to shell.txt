@@ -33,4 +33,18 @@ What is shell:
         * Day to day activities will be performed using a normal account.
 
 
+        ~jason = /home/jason
+        ~pat = /home/pat
+        ~root = /root
+        ~ftp = /srv/ftp
+
+        The shell is the default user interface.
+        Use the terminal application to get the CLI.
+        Shell prompts can vary greatly in appearance.
+        Root is the superuser.
+
+
+    
+
+
 
