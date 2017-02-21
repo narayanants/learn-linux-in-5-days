@@ -2,9 +2,8 @@ What is shell:
 ==============
 
     * What shell is.
-    * How to access the shell
+    * How to access the shell.
     * What super account is.
-
 
 
     * The shell is the default interface to the linux system.
