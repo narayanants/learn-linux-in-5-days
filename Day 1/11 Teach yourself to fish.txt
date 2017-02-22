@@ -71,6 +71,20 @@ Teach yourself to fish:
         Ask commands for help with --help or -h
         Search man pages by using  man -k.
 
+
+    Suggestions:
+    =============
+
+
+    * Examine your $PATH environment vairable.
+    * Perform an ls on each directory in your $PATH.
+    * Pick a few commands that look interesting.
+    * Use man to learn what the command does.
+    * Try using --help and -h on a few commands.
+
+
+
+
         
 
 
