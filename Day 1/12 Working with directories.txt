@@ -1,0 +1,19 @@
+Working with directories:
+=========================
+
+    * Are containers for other files and folders.
+    * Provide a tree like structure.
+    * Can be accessed by name or shortcut.
+
+
+        How to use directory shortcuts.
+        How to execute commands outside of $PATH
+        How to create and remove directories.
+
+        
+
+
+
+
+
+
