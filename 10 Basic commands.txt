@@ -14,5 +14,25 @@ Commands in Linux:
     clear - clears the screen.
 
 
+ls -l - long listing format:
+============================
+
+cd - change directory
+
+cat sales-report.txt
+
+
+man ls
+
+pwd - present working directory
+
+exit - logout
+
+
+
+
+
+
+
 
 
