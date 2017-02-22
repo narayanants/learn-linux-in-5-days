@@ -59,7 +59,27 @@ Directory Separator:
 
          mkdir dir1
          mkdir dir1/dir2/dir3
-         
+         rmdir dir1
+         rm -rf dir1
+
+         How to create and remove directories:
+         =====================================
+
+            mkdir
+            rmdir
+            rm
+
+            Next Steps:
+            ==========
+
+                Practice navigating with directory structure.
+                Execute commands with full paths.
+                Create and remove directories.
+
+
+
+            
+
 
 
 
