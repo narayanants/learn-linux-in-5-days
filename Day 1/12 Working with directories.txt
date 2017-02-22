@@ -12,10 +12,59 @@ Working with directories:
 
     Directory shortcuts:
     ====================
-        
+
     . - This directory.
     .. - The parent directory.
     cd - changes the previous directory.
+
+
+Directory Separator:
+====================
+
+     / - Directory Separator (forward slash)
+
+     pwd
+
+     cd /tpsreports
+
+     cd .. - go to parent directory.
+
+     cd .. - cd /home/jason
+
+     cd /var/temp 
+
+     echo $OLDPWD  - /home/jason
+
+
+     Executing commands:
+     ====================
+
+        How to use directory shortcuts.
+        How to execute commands outside of $PATH.
+        How to create and remove directories.
+
+
+        echo $PATH
+
+
+    Creating and removing directories:
+    ==================================
+
+        mkdir [-p] directory - Create a directory.
+        rmdir [-p] directory - Remove a directory.
+        rm -rf directory - Recursively removes directory
+
+    Exercise:
+    ==========
+
+         mkdir dir1
+         mkdir dir1/dir2/dir3
+         
+
+
+
+
+     
 
 
 
