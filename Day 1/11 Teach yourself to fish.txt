@@ -45,6 +45,35 @@ Teach yourself to fish:
             Look at the files in each directories.
             Use man to  learn what the command does.
 
+        
+        ls /bin:
+        ========
+
+        Getting help with --help:
+        ========================
+
+            Add --help to command to get help.
+            Try -h if --help doesn't work.
+
+        Searching Man Pages:
+        ===================
+
+        man -k SEARCH_ITEM
+
+        man -k calendar
+
+     SUMMARY:
+     =========
+
+        Man is used to display documentation.
+        $PATH controls your search path.
+        Learn the full path to commands with which
+        Ask commands for help with --help or -h
+        Search man pages by using  man -k.
+
+        
+
+
 
 
 
