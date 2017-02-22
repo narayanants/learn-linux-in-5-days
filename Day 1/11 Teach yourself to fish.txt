@@ -8,7 +8,7 @@ Teach yourself to fish:
     * How to search man pages.
 
 
-    Enter moves down 1 line
+    Enter moves down 1 line.
     Space Move down one page.
     g - Move to the top of the page.
     G - move to the bottom of the page.
@@ -65,11 +65,11 @@ Teach yourself to fish:
      SUMMARY:
      =========
 
-        Man is used to display documentation.
-        $PATH controls your search path.
-        Learn the full path to commands with which
-        Ask commands for help with --help or -h
-        Search man pages by using  man -k.
+        * Man is used to display documentation.
+        * $PATH controls your search path.
+        * Learn the full path to commands with which
+        * Ask commands for help with --help or -h
+        * Search man pages by using  man -k.
 
 
     Suggestions:
