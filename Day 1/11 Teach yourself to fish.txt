@@ -1,0 +1,15 @@
+Teach yourself to fish:
+=======================
+
+    * How to navigate man pages.
+    * How the $PATH environment variables are used.
+    * what the which command does.
+    * how to ask commands for help
+    * How to search man pages.
+
+
+    Enter moves down 1 line
+    Space Move down one page.
+    g - Move to the top of the page.
+    G - move to the bottom of the page.
+    q - quit
