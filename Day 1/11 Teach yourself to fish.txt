@@ -13,3 +13,38 @@ Teach yourself to fish:
     g - Move to the top of the page.
     G - move to the bottom of the page.
     q - quit
+
+
+    Environment variables:
+    ======================
+
+    * Storage location that has a name and value.
+    * Typically uppercase.
+    * Access the contents by executing.
+
+        echo $VAR_NAME
+
+
+    PATH:
+    ====
+
+
+        * an environment variables.
+        * controls the command search PATH.
+        * contains a lot of directories.
+
+
+        which cat 
+        which tac - displays file contents in backwards order.
+
+
+        Starting to fish:
+        =================
+
+            Look at the directories in $PATH.
+            Look at the files in each directories.
+            Use man to  learn what the command does.
+
+
+
+
