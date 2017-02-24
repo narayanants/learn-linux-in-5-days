@@ -10,16 +10,16 @@ Linux:
 	Linux History:
 	=============
 	
-	Linux is an OS
-	A Kernel
-	Created by Linux Torvalds in 1991
-	First version in 1994
-	FOSS ( Source code is free but for some binaries are not free)
+	Linux is an OS.
+	A Kernel.
+	Created by Linux Torvalds in 1991.
+	First version in 1994.
+	FOSS ( Source code is free but for some binaries are not free).
 
 
-	Linux kernel plus additional s/w
-	Each distribution can have different focus
-	Many distributions to choose from
+	Linux kernel plus additional s/w.
+	Each distribution can have different focus.
+	Many distributions to choose from.
 
 	Distributions:
 	===============
