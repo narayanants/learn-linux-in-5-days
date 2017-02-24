@@ -1,17 +1,17 @@
 What is shell:
 ==============
 
-    * What shell is.
-    * How to access the shell.
-    * What super account is.
+        * What shell is.
+        * How to access the shell.
+        * What super account is.
 
 
-    * The shell is the default interface to the linux system.
-    * A program that accepts commands and executes those commands.
-    * CLI is more powerful.
-    * There will always be a command line.
-    * Server distributions do not include GUI'shell.
-    * Desktop distributions have GUIs and CLIs.
+        * The shell is the default interface to the linux system.
+        * A program that accepts commands and executes those commands.
+        * CLI is more powerful.
+        * There will always be a command line.
+        * Server distributions do not include GUI'shell.
+        * Desktop distributions have GUIs and CLIs.
 
 
     Shell Prompt:

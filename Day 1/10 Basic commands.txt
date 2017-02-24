@@ -30,6 +30,18 @@ pwd - present working directory
 
 exit - logout
 
+Commands:
+=========
+
+ ls
+ cd
+ pwd
+ cat
+ echo
+ man
+ exit
+ clear
+
 
 
 
