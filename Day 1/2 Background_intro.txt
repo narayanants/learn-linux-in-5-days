@@ -46,6 +46,7 @@ Linux:
 
 	Recap:
 	======
+
 	Linux is an OS
 	At the heart of OS is  Linux Kernel
 	Linux is the layer between h/w and s/w
