@@ -3,13 +3,12 @@ Intro:
 
 	Day 1:
 	=====
-	
+
 		* Background and history of Linux
 		* What linux is and what distributions are
 		* Places to practice your linux skills
 		* How to install linux
 		* Ways to connect to Linux Systems
-
 
 	Day 2:
 	======
