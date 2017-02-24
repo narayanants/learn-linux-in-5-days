@@ -1,9 +1,9 @@
 Getting Started:
-=================
+================
 
-    * How to log into Linux
-    * What SSH is
-    * Which SSH clients to use.
+        * How to log into Linux
+        * What SSH is
+        * Which SSH clients to use.
 
 
     Connect directly:
