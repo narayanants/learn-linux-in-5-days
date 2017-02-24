@@ -13,6 +13,8 @@ Commands in Linux:
     exit - exits the shell from the current session.
     clear - clears the screen.
 
+    
+
 
 ls -l - long listing format:
 ============================
