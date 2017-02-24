@@ -34,6 +34,9 @@ Teach yourself to fish:
         * contains a lot of directories.
 
 
+        which command:
+        ==============
+        
         which cat 
         which tac - displays file contents in backwards order.
 
@@ -65,7 +68,7 @@ Teach yourself to fish:
      SUMMARY:
      =========
 
-        * Man is used to display documentation.
+        * Man is used to display online documentation.
         * $PATH controls your search path.
         * Learn the full path to commands with which
         * Ask commands for help with --help or -h
