@@ -25,7 +25,21 @@ Long Listing Format:
       File name             sales.data
 
       
-      Listing all files, including hidden files
+      Listing all files, including hidden files:
+      =========================================
+
+        * Hidden files begin with period.
+
+            Sometimes called "dot files".
+
+        * Hidden files are not displayed by default.
+        * To show hidden files with ls, use "ls -a".
+        * CLI options can be combined.
+
+            ls -l -a  is same as ls -la and ls -al.
+            
+
+    
 
 
 
