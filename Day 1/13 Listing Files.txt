@@ -1,0 +1,61 @@
+Long Listing Format:
+=====================
+
+    * What the long listing format components are.
+    * How to see hidden files and directories.
+    * How to list file by type.
+    * How to list files sorted by time.
+    * How to handle spaces in the file names.
+    * What symbolic links are.
+
+
+   Decoding ls -l O/P:
+   ====================
+
+    $ ls -l
+
+      -rw-rw-r-- 1 jason users 10400 Sep 27 08:52 sales.data
+
+      Permissions           -rw-rw-r--
+      Number on links       1
+      Owner name            jason
+      Group name            users
+      Number of bytes in the file   10400
+      Last modification time    Sept 27 08:52
+      File name             sales.data
+
+      
+      Listing all files, including hidden files
+
+
+
+
+        
+
+
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
