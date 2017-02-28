@@ -102,6 +102,27 @@ Tree command:
             * Underscores
             * CamelCase
 
+        * Encapsulate the entire file name in quotes
+        * Use a backslash (\) to escape spaces.
+
+            ls -l 'my notes.txt'   => bad format
+            
+            ls -l 'my_notes.txt'   => Good format
+
+
+        Summary of ls options:
+        ======================
+
+
+        -a   -          List hidden files
+        --color         Colorize O/p 
+        -d              List directories names, not contents
+        -l              Long listing format
+        -r              Reverse order
+        -R              List files recursively.
+        -t              Sort by time, most recent first.
+
+
                 
 
 
