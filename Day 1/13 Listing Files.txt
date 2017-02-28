@@ -71,6 +71,9 @@ Long Listing Format:
         ls -t       List files by time
         ls -r       Reverse order
         ls -latr    Long listing including all files reverse sorted by time.
+        ls -R       List files recursively.
+        ls -d       List directories names, not contents
+        ls --color  Colorize O/p
 
 
     Long listing reverse:
@@ -80,6 +83,13 @@ Long Listing Format:
         ls -lat - Long listing all files by time
         ls -latr - Long listing all files by time in reverse order.
 
+Tree command:
+==============
+
+    Similar to ls -R, but creates a visual output
+
+    tree -d          List directories only
+    tree -c          Colorize o/p
                 
 
 
