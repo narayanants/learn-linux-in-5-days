@@ -71,6 +71,15 @@ Long Listing Format:
         ls -t       List files by time
         ls -r       Reverse order
         ls -latr    Long listing including all files reverse sorted by time.
+
+
+    Long listing reverse:
+    ========================
+
+        ls -lr   - Long listing files in reverse order.
+        ls -lat - Long listing all files by time
+        ls -latr - Long listing all files by time in reverse order.
+
                 
 
 
