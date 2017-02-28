@@ -10,7 +10,7 @@ Long Listing Format:
 
 
    Decoding ls -l O/P:
-   ====================
+   ===================
 
     $ ls -l
 
@@ -37,6 +37,43 @@ Long Listing Format:
         * CLI options can be combined.
 
             ls -l -a  is same as ls -la and ls -al.
+
+        Order of commands doesn't matter:
+        =================================
+
+
+        Listing files by type:
+        =======================
+
+            use ls -F to reveal file types.
+
+                / - Directory
+                @ - link
+                * - Executable
+
+            
+        Use Symbolic Links:
+        ===================
+
+            A link is a points to the actual file or directory is.
+
+                Use the link as if it were the file.
+                A link can be used to create a shortcut.
+
+                use for long directories names.
+                used to indicate the current version of s/w.
+
+
+     Listing files by Time and Reverse:
+    =================================
+
+        ls -a       display Hidden files
+        ls -t       List files by time
+        ls -r       Reverse order
+        ls -latr    Long listing including all files reverse sorted by time.
+                
+
+
             
 
     
