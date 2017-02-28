@@ -90,6 +90,18 @@ Tree command:
 
     tree -d          List directories only
     tree -c          Colorize o/p
+
+
+    Working with spaces:
+    =====================
+
+        * Just say no to spaces.
+        Alternatives
+
+            * Hyphens
+            * Underscores
+            * CamelCase
+
                 
 
 
