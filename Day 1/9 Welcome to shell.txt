@@ -37,6 +37,10 @@ What is shell:
         ~root = /root
         ~ftp = /srv/ftp
 
+
+        Summary:
+        ========
+        
         The shell is the default user interface.
         Use the terminal application to get the CLI.
         Shell prompts can vary greatly in appearance.
