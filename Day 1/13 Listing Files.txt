@@ -75,6 +75,8 @@ Long Listing Format:
         ls -d       List directories names, not contents
         ls --color  Colorize O/p
 
+ 
+
 
     Long listing reverse:
     ========================
