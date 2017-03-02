@@ -1,0 +1,96 @@
+Permissions:
+============
+
+    * Symbolic Permissions
+    * Numeric /octal Permissions
+    * File versus directory Permissions
+    * Changing Permissions
+    * Working with groups
+    * File creation mask
+
+
+
+    Symbloc Permissions
+    ====================
+
+        ls -l 
+
+        -rw-rw-r-- 1 jason users 10400 Sept 27 08:52 sales.data
+
+        Symbol       Permissions
+
+        r               Read
+        w               Write
+        x               Execute
+
+
+        Permissions         Files              directory
+
+        Read(r)             Can read a File     Allows file names in the directory to be read.
+
+        Write(w)            Allows files to be modified     Allows entries to be modified within the directory.
+
+        Execute(x)          Allows the execution of a file  Allows access to contents and metadata for entries.
+
+
+        Permissions categories:
+        -----------------------
+
+        Symbol              Category
+
+         u                   users
+         g                   groups
+         o                   other
+         a                   all
+
+         Groups:
+         ======
+
+            Every user is on atleast one group
+            Users can belong to many groups
+            Groups are used to organize users.
+            The "groups" command displays a user's groups.
+            You can also use -id -Gn
+
+
+        Hidden decoding:
+        ================
+
+        -rw-rw-r-- 1 jason users 10400 Sept 27 08:52 sales.data
+
+        
+        Changing Permissions:
+        ====================
+
+            Item                Meaning
+
+            chmod               change mode command
+            ugoa                User category (users,group,other,all)
+            +-=                 Add, Subtract, or set Permissions
+            rwx                 Read, Write, Execute
+
+
+        chmod modes:
+        =============
+
+            chmod g+w
+            chmod g-w
+
+            chmod u=rwx,g=rx,o= sales.data
+
+          
+        
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
