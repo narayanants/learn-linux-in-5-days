@@ -86,6 +86,21 @@ Permissions:
             0       0       0       Value far off
             1       1       1       Binary value for on
             4       2       1       Base 10 value for on
+
+        Octal   Binary   String Description
+        -----   ------   ------ -----------
+
+        0       0          ----     No Permissions
+        1       1           --x     Execute Only
+        2       10         -w-      Write Only
+        3       11         -wx      Write and Execute (2+1) 
+        4       100         r--     Read Only
+        5       101         r-x     Read and Execute(4+1)
+        6       110         rw-     Read and Write(4+2)
+        7       111         rwx     Read,write and execute(4+2+1)
+
+         
+
     
 
           
