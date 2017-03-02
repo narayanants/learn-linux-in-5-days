@@ -25,4 +25,39 @@ Work your way up to the root.
         Sets the creation mask to mode, if given.
         Uses -S for Symbolic notation.
 
+
+    Octal subtraction is an Estimation:
+    -----------------------------------
+
+            Base Permission       777  666
+            Subtrack Permission  -007  -007
+            Creations Permission  770  660*
+
+
+    Common umask modes:
+    =================
+
+        002
+        022
+        077
+        007
+
+    Special Modes:
+    =============
+
+        umask 0022 is the same as umask 022
+        chmod 0644 is the same as chmod 644
+        The special modes are:
+        =======================
+
+            setguid
+            setgid
+            sticky
+
+        mkdir testumask
+        cd testumask
+        umask
+
+
+
         
