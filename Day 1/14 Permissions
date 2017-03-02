@@ -122,7 +122,14 @@ Permissions:
         -rw-r--r--          644
 
 
-        
+        Working with groups:
+        ==================
+
+            New files belong to your primary group.
+            The chgrp command changes the group.
+            
+
+
 
     
 
