@@ -1,0 +1,28 @@
+Directory Permissions:
+======================
+
+
+Permissions on a directory can effect the files in the directory.
+If the file Permissions look correct,start checking directory permissions.
+Work your way up to the root.
+
+
+    File creation mask:
+    =================
+
+        File creation mask determines default file permissions
+
+        If no mask were used permissions would be:
+
+            777 for directories
+            666 for files
+
+    The umask command:
+    =====================
+
+        umask  [-s] [mode]
+
+        Sets the creation mask to mode, if given.
+        Uses -S for Symbolic notation.
+
+        
