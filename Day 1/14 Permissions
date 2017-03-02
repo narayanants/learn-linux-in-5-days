@@ -78,6 +78,16 @@ Permissions:
 
             chmod u=rwx,g=rx,o= sales.data
 
+         Numeric Permissions:
+         ===================
+
+            r       w       x
+
+            0       0       0       Value far off
+            1       1       1       Binary value for on
+            4       2       1       Base 10 value for on
+    
+
           
         
 
