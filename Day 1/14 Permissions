@@ -99,7 +99,30 @@ Permissions:
         6       110         rw-     Read and Write(4+2)
         7       111         rwx     Read,write and execute(4+2+1)
 
-         
+        
+
+        Order has meaning:
+        =================
+
+                U       G       O  
+            
+        Symbolic rwx  r-x       r--
+   
+        Binary   111  101       100       
+ 
+        Decimal  7    5         4
+
+
+        Symbolic            Octal
+
+        -rwx------          700
+        -rwxr-xr-x          755
+        -rw-rw-r--          664
+        -rw-rw----          660
+        -rw-r--r--          644
+
+
+        
 
     
 
