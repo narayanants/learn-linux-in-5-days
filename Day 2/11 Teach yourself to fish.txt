@@ -1,0 +1,100 @@
+Teach yourself to fish:
+=======================
+
+    * How to navigate man pages.
+    * How the $PATH environment variables are used.
+    * what the which command does.
+    * how to ask commands for help
+    * How to search man pages.
+
+
+    Enter moves down 1 line.
+    Space Move down one page.
+    g - Move to the top of the page.
+    G - move to the bottom of the page.
+    q - quit
+
+
+    Environment variables:
+    ======================
+
+    * Storage location that has a name and value.
+    * Typically uppercase.
+    * Access the contents by executing.
+
+        echo $VAR_NAME
+
+
+    PATH:
+    ====
+
+
+        * an environment variables.
+        * controls the command search PATH.
+        * contains a lot of directories.
+
+
+        which command:
+        ==============
+        
+        which cat 
+        which tac - displays file contents in backwards order.
+
+
+        Starting to fish:
+        =================
+
+            Look at the directories in $PATH.
+            Look at the files in each directories.
+            Use man to  learn what the command does.
+
+        
+        ls /bin:
+        ========
+
+        Getting help with --help:
+        ========================
+
+            Add --help to command to get help.
+            Try -h if --help doesn't work.
+
+        Searching Man Pages:
+        ===================
+
+        man -k SEARCH_ITEM
+
+        man -k calendar
+
+     SUMMARY:
+     =========
+
+        * Man is used to display online documentation.
+        * $PATH controls your search path.
+        * Learn the full path to commands with which
+        * Ask commands for help with --help or -h
+        * Search man pages by using  man -k.
+
+
+    Suggestions:
+    =============
+
+
+    * Examine your $PATH environment vairable.
+    * Perform an ls on each directory in your $PATH.
+    * Pick a few commands that look interesting.
+    * Use man to learn what the command does.
+    * Try using --help and -h on a few commands.
+
+
+   
+
+
+
+
+
+        
+
+
+
+
+
