@@ -1,0 +1,166 @@
+Long Listing Format:
+=====================
+
+    * What the long listing format components are.
+    * How to see hidden files and directories.
+    * How to list file by type.
+    * How to list files sorted by time.
+    * How to handle spaces in the file names.
+    * What symbolic links are.
+
+
+   Decoding ls -l O/P:
+   ===================
+
+    $ ls -l
+
+      -rw-rw-r-- 1 jason users 10400 Sep 27 08:52 sales.data
+
+      Permissions           -rw-rw-r--
+      Number on links       1
+      Owner name            jason
+      Group name            users
+      Number of bytes in the file   10400
+      Last modification time    Sept 27 08:52
+      File name             sales.data
+
+      
+      Listing all files, including hidden files:
+      =========================================
+
+        * Hidden files begin with period.
+
+            Sometimes called "dot files".
+
+        * Hidden files are not displayed by default.
+        * To show hidden files with ls, use "ls -a".
+        * CLI options can be combined.
+
+            ls -l -a  is same as ls -la and ls -al.
+
+        Order of commands doesn't matter:
+        =================================
+
+
+        Listing files by type:
+        =======================
+
+            use ls -F to reveal file types.
+
+                / - Directory
+                @ - link
+                * - Executable
+
+            
+        Use Symbolic Links:
+        ===================
+
+            A link is a points to the actual file or directory is.
+
+                Use the link as if it were the file.
+                A link can be used to create a shortcut.
+
+                use for long directories names.
+                used to indicate the current version of s/w.
+
+
+     Listing files by Time and Reverse:
+    =================================
+
+        ls -a       display Hidden files
+        ls -t       List files by time
+        ls -r       Reverse order
+        ls -latr    Long listing including all files reverse sorted by time.
+        ls -R       List files recursively.
+        ls -d       List directories names, not contents
+        ls --color  Colorize O/p
+
+ 
+
+
+    Long listing reverse:
+    ========================
+
+        ls -lr   - Long listing files in reverse order.
+        ls -lat - Long listing all files by time
+        ls -latr - Long listing all files by time in reverse order.
+
+Tree command:
+==============
+
+    Similar to ls -R, but creates a visual output
+
+    tree -d          List directories only
+    tree -c          Colorize o/p
+
+
+    Working with spaces:
+    =====================
+
+        * Just say no to spaces.
+        Alternatives
+
+            * Hyphens
+            * Underscores
+            * CamelCase
+
+        * Encapsulate the entire file name in quotes
+        * Use a backslash (\) to escape spaces.
+
+            ls -l 'my notes.txt'   => bad format
+            
+            ls -l 'my_notes.txt'   => Good format
+
+
+        Summary of ls options:
+        ======================
+
+
+        -a   -          List hidden files
+        --color         Colorize O/p 
+        -d              List directories names, not contents
+        -l              Long listing format
+        -r              Reverse order
+        -R              List files recursively.
+        -t              Sort by time, most recent first.
+
+
+                
+
+
+            
+
+    
+
+
+
+
+        
+
+
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
