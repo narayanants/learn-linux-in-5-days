@@ -1,0 +1,94 @@
+Working with directories:
+=========================
+
+    * Are containers for other files and folders.
+    * Provide a tree like structure.
+    * Can be accessed by name or shortcut.
+
+    How to use directory shortcuts.
+    How to execute commands outside of $PATH
+    How to create and remove directories.
+
+
+    Directory shortcuts:
+    ====================
+
+    . - This directory.
+    .. - The parent directory.
+    cd - changes the previous directory.
+
+
+Directory Separator:
+====================
+
+     / - Directory Separator (forward slash)
+
+     pwd
+
+     cd /tpsreports
+
+     cd .. - go to parent directory.
+
+     cd .. - cd /home/jason
+
+     cd /var/temp 
+
+     echo $OLDPWD  - /home/jason
+
+
+     Executing commands:
+     ====================
+
+        How to use directory shortcuts.
+        How to execute commands outside of $PATH.
+        How to create and remove directories.
+
+
+        echo $PATH
+
+
+    Creating and removing directories:
+    ==================================
+
+        mkdir [-p] directory - Create a directory.
+        rmdir [-p] directory - Remove a directory.
+        rm -rf directory - Recursively removes directory
+
+    Exercise:
+    ==========
+
+         mkdir dir1
+         mkdir dir1/dir2/dir3
+         rmdir dir1
+         rm -rf dir1
+
+         How to create and remove directories:
+         =====================================
+
+            mkdir
+            rmdir
+            rm
+
+            Next Steps:
+            ==========
+
+                Practice navigating with directory structure.
+                Execute commands with full paths.
+                Create and remove directories.
+
+
+
+            
+
+
+
+
+
+     
+
+
+
+
+
+
+
