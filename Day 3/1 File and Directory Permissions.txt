@@ -1,0 +1,12 @@
+File and Directory Permissions:
+===============================
+
+What you will Learn:
+====================
+
+Symbolic Permissions
+Numeric/Octal Permissions
+File versus directory Permissions
+Changing Permissions
+Working with groups
+File creation mask
