@@ -17,5 +17,9 @@ Important parts of the Kernel:
 	- Network Management
 	- Various other bits and pieces
 	
+	
+	- At the lowest level, kernel containts a hardware device driver for each kind of hardware it supports.
+	
+	
 
  
