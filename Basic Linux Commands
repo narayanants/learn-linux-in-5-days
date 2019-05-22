@@ -1,0 +1,5 @@
+Network Commands:
+=================
+
+ifconfig  - to check the network interface (CentOS/RHEL5/6)
+ip - CentOS/RHEL7
