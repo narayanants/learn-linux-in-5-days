@@ -1,0 +1,5 @@
+File Path:
+=========
+
+Absolute Path - Begins with / cd /var/log/samba
+Relative Path - Does not begin with / - cd /var -> cd log
