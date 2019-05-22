@@ -1,6 +1,6 @@
-Network Commands:
+Linux Terminal Commands:
 =================
-
+netstat -tulpn | grep LISTEN - to check port in USE
 ifconfig  - to check the network interface (CentOS/RHEL5/6)
 ip - CentOS/RHEL7
 find /home/ubuntu/nodeapp/ -name "*.js" - Locate a file
