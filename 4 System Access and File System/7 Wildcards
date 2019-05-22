@@ -1,0 +1,12 @@
+Wildcards:
+==========
+
+* - zero or more characters
+? - single character
+[] - range of characters
+
+
+ls - l ?bcd*
+ls -l abc*
+ls -l *xyz
+
