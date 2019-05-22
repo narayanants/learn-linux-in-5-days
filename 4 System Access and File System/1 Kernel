@@ -1,0 +1,25 @@
+What is Kernel?
+
+ - It is the heart of OS
+ - An OS system provides many more services than a plain kernel.
+ - Kernel prevents anyone from accessing the hardware directly.
+ - Tools provided by the kernel are  used via system calls
+ - System Programs and all other programs, run on "top of kernel", in what is called the user mode.
+ - The difference between system and application programs is one of intent:
+ 
+	
+Important parts of the Kernel:
+
+	- Process Management - creates processes, switching the active process on the processor
+	- Memory Management - memory areas and swap space areas to processes and for buffer cache
+	- Hardware device drivers
+	- Filesystem drivers
+	- Network Management
+	- Various other bits and pieces
+	
+	
+	- At the lowest level, kernel containts a hardware device driver for each kind of hardware it supports.
+	
+	
+
+ 
