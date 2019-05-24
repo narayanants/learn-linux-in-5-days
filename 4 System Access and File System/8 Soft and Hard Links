@@ -1,0 +1,5 @@
+Soft Links and Hard Links:
+==========================
+
+inode = Pointer or number of a file on the hard disk
+Soft Link - Will be removed once the file is removed or renamed
