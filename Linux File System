@@ -1,0 +1,15 @@
+/boot - boot loader (GRUB configuration)
+/root  - root use home directory
+/dev - System Devices (disk,cdrom, speakers)
+/etc - Configuration files
+/usr/bin - Everyday user commands
+/usr/sbin - Filesystem Commands
+/opt - optional addon applications
+/proc - Running Process (Only exist in Memory)
+/lib - C programming libraries files
+/tmp - Directory for temporary files
+/home - Directory for user
+/var - System logs
+/run - System Daemon starts up
+/mnt - to mount external file system
+/media - for CD ROMs mounts
