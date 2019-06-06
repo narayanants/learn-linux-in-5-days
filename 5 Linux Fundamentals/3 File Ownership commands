@@ -1,4 +1,9 @@
 File Ownership Commands:
 ========================
 
-* 
+* chown - chown - ownership of a file
+chgrp - group ownership of a file
+
+chown root lisa
+
+chgrp root lisa
