@@ -1,0 +1,10 @@
+Compare Files:
+===============
+
+diff - Line by Line
+cmp - Byte by Byte
+
+
+diff dc marvel
+
+cmp dc marvel
