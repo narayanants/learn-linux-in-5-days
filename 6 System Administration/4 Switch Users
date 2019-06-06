@@ -1,0 +1,13 @@
+Switch Users:
+=============
+
+Commands:
+----------
+
+* su - username
+
+
+Files:
+------
+
+/etc/sudoers
