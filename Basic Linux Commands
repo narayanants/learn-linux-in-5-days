@@ -33,3 +33,26 @@ gzip
 gzip -d
 truncate - Shrink the size of a file (truncate -s 40 file_name)
 split - command to split Files
+whoami - the current user
+sed 
+useradd
+groupadd
+userdel
+groupdel
+usermod
+su - username
+who - Monitor users
+last - Monitor users
+w - Monitor users
+finger - Monitor users
+id - Monitor users
+users - Talk with Users
+wall - Talk with Users
+write - Talk with Users
+date - System Utility Commands
+uptime - System Utility Commands
+hostname - System Utility Commands
+uname - System Utility Commands
+which - System Utility Commands
+cal - System Utility Commands
+bc - System Utility Commands
