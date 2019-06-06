@@ -1,0 +1,4 @@
+Combining and Splitting Files:
+==============================
+
+truncate -s 40 file_name
