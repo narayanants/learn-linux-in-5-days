@@ -9,3 +9,9 @@ chown - chown root lisa
 chgrp - chgrp root lisa
 chmod g-w jerry
 man - get the manual of the commands
+wc - word count
+cp 
+rm
+mv
+mkdir
+rmdir
