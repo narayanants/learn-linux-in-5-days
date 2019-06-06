@@ -1,0 +1,10 @@
+sed Command:
+============
+
+
+sed -i 's/Kenny/Lenny/g' seinfield-characters
+
+
+sed -n 12,18p file_name
+
+sed 12,18d file_name
