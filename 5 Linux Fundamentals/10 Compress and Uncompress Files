@@ -1,0 +1,6 @@
+Compress and Uncompress Files:
+==============================
+
+* tar - tar cvf file_name.tar
+* gzip
+* gzip -d
