@@ -10,8 +10,26 @@ chgrp - chgrp root lisa
 chmod g-w jerry
 man - get the manual of the commands
 wc - word count
-cp 
-rm
-mv
-mkdir
-rmdir
+cp - copy a file to a new file
+rm - remove or delete a file
+mv - Move/Rename a file
+mkdir - Create a  directory
+rmdir - Remove a directory
+cat - List the content of a file
+more - File Display Commands
+less - File Display commands
+head - File Display commands
+tail - File Display Commands
+cut - Filters
+awk - Filters
+grep - Filters
+sort - Sort Files
+uniq - List Unique content
+wc - Word Count
+diff - diff dc marvel (Line by Line)
+cmp - cmp dc marvel (Byte by Byte)
+tar - tar cvf file_name.tar
+gzip
+gzip -d
+truncate - Shrink the size of a file (truncate -s 40 file_name)
+split - command to split Files
