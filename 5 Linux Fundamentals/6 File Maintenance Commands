@@ -1,0 +1,10 @@
+File Maintenenace Commands:
+===========================
+
+* cp - cp george david
+* rm - rm paul
+* mv - mv max paul
+* mkdir -
+* rmdir or rm -rf
+* chgrp
+* chown
