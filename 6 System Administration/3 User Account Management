@@ -1,0 +1,28 @@
+User Account Management:
+========================
+
+useradd
+groupadd
+userdel
+groupdel
+usermod
+
+
+Files:
+
+/etc/passwd
+/etc/group
+/etc/shadow
+
+User Add:
+=========
+
+useradd spiderman
+id spiderman
+
+
+Group Add:
+===========
+
+groupadd superheros
+usermod -G superheros spiderman
