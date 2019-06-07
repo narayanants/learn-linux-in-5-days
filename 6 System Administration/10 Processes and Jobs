@@ -1,0 +1,24 @@
+Processes and Jobs:
+===================
+
+
+Application = Service
+Script
+Process
+Daemon
+Threads
+Job
+
+
+systemctl
+ps
+kill
+top
+crontab
+at
+
+
+ps -ef | grep ntpd
+top 
+
+crontab -e 
