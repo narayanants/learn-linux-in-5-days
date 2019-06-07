@@ -1,0 +1,10 @@
+Process Management:
+====================
+
+* Background - bg
+* Foreground - fg
+* Process Priority - nice
+* kill a process by name - pkill
+* Process Monitoring  - top
+* List Processes - ps
+
