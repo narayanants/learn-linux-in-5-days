@@ -1,0 +1,5 @@
+Env Variables:
+===============
+
+* printenv or Env
+* echo $SHELL
