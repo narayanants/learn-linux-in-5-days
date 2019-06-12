@@ -1,5 +1,5 @@
 Linux Terminal Commands:
-=======================
+========================
 
 netstat -tulpn | grep LISTEN - to check port in USE
 ifconfig  - to check the network interface (CentOS/RHEL5/6)
@@ -35,11 +35,11 @@ truncate - Shrink the size of a file (truncate -s 40 file_name)
 split - command to split Files
 whoami - the current user
 sed 
-useradd
-groupadd
-userdel
-groupdel
-usermod
+useradd - Create a new user
+userdel - Delete a user
+groupadd - Create a Group
+groupdel - Delete a Group
+usermod - 
 su - username
 who - Monitor users
 id - Monitor users
