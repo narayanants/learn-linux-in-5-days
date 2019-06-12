@@ -18,7 +18,17 @@ User Add:
 =========
 
 useradd spiderman
-id spiderman
+useradd -d /home/newusers solider - Create user with different home directory
+cat /etc/passwd | grep solider
+useradd -u 999 solider - create a user with different userID
+useradd -u 999 -g 500 solider - Create a user with UID and GID
+useradd -G admins,webadmin,developers solider
+cat /etc/passwd | grep tarunika
+id tarunika
+useradd -M tarunika - create user without home directory
+useradd -e 2014-03-27 aparna - Create a user with Account Expiry date
+chage -l aparna - verify the age using the chage command
+useradd -e 2014-04-27 -f 45 solider - Create a user with Password Expiry date
 
 
 Group Add:
