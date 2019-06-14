@@ -9,6 +9,11 @@ Daemon
 Threads
 Job
 
+ps - to list all running Processes
+ps uc - All Processes in your machine
+ps ug - Detailed List of all processes in your machine
+
+
 
 systemctl
 ps
