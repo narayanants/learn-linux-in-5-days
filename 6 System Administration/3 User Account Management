@@ -2,8 +2,8 @@ User Account Management:
 ========================
 
 useradd
-groupadd
 userdel
+groupadd
 groupdel
 usermod
 
