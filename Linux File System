@@ -13,3 +13,13 @@
 /run - System Daemon starts up
 /mnt - to mount external file system
 /media - for CD ROMs mounts
+
+/boot - boot loader (GRUB Configuration)
+/root - root use home directory
+/dev - System Devices (disk,cdrom,speakers)
+/etc - Configuration files
+/usr/bin - Everday user commands
+/usr/sbin - Filesystem commands
+/opt - optional addon applications
+/proc - Running Processes (Only exist in Memory)
+
