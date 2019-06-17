@@ -12,7 +12,6 @@ File and Directory Permissions:
     g - group
     o - other
 
-
 Eg:
 
     chmod g-w jerry
