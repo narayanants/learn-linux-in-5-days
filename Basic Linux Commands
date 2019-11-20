@@ -50,19 +50,22 @@ hostname - System Utility Commands
 uname - System Utility Commands
 which - System Utility Commands
 systemctl - Start/Stop Processes
-ps - running Processes
+ps -aux | grep java - list running Processes
 kill - Kill Processes
 top - Tells about System Resources
 crontab - Process Commands
 at - Process Commands
 bg - background Processes
 fg - foreground Processess
-df - Disk Partition
+df -h - Disk Partition (Human Readable form)
+lsblk - Hard Disk Partition Tree
 iostat 1 - 
-netstat
+netstat -tupln | grep <java> - 
 shutdown - System Maintenance Commands
 init 0-6 - System Maintenance Commands
 reboot - System Maintenance Commands
 halt - System Maintenance Commands
 ln -s <symblink> <folder> - To create a symblink
 update-alternatives --config java
+unlink <symblink> - Remove symblink
+
