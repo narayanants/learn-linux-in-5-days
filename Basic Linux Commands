@@ -68,4 +68,8 @@ halt - System Maintenance Commands
 ln -s <symblink> <folder> - To create a symblink
 update-alternatives --config java
 unlink <symblink> - Remove symblink
+du -sh server.log - Find the size of the logs
+tar -zxvf test.tar.gz * - Extract the compressed file
+tar -zxvf test.tar.gz * - Tar the Files
+
 
