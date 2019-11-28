@@ -65,11 +65,13 @@ shutdown - System Maintenance Commands
 init 0-6 - System Maintenance Commands
 reboot - System Maintenance Commands
 halt - System Maintenance Commands
-ln -s <symblink> <folder> - To create a symblink
 update-alternatives --config java
+ln -s <symblink> <folder> - To create a symblink
 unlink <symblink> - Remove symblink
 du -sh server.log - Find the size of the logs
 tar -zxvf test.tar.gz * - Extract the compressed file
 tar -zxvf test.tar.gz * - Tar the Files
-
-
+# zip older files 
+gzip /opt/websrvr/JBoss/wildfly-10.0.0.Final/standalone/log/server.log.* - Gzip an entire folder
+# find files older than 7 days and delete the same
+find /opt/websrvr/JBoss/wildfly-10.0.0.Final/standalone/log -name '*' -mtime +7 | xargs rm
