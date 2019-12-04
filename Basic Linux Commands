@@ -39,7 +39,8 @@ useradd - Create a new user
 userdel - Delete a user
 groupadd - Create a Group
 groupdel - Delete a Group
-usermod - 
+usermod -aG wheel awsmpadmin - add required local users to wheel group for sudo access
+sed -i 's/^#\s*\(%wheel\s*ALL=(ALL)\s*NOPASSWD:\s*ALL\)/\1/' /etc/sudoers - Set Wheel group to sudoers with no password
 su - username
 who - Monitor users
 id - Monitor users
@@ -75,3 +76,13 @@ tar -zxvf test.tar.gz * - Tar the Files
 gzip /opt/websrvr/JBoss/wildfly-10.0.0.Final/standalone/log/server.log.* - Gzip an entire folder
 # find files older than 7 days and delete the same
 find /opt/websrvr/JBoss/wildfly-10.0.0.Final/standalone/log -name '*' -mtime +7 | xargs rm
+
+/etc/profile - Stores user wide Environment variables 
+/etc/environment - System wide Environment Variables
+chkconfig crond on - set crontab to run at boot
+chmod 400 test/ - Locks down the folder. No one can access it
+
+source /etc/profile - reload profile variables
+/etc/ssh/sshd_config - sshd config
+echo "centos" >> /etc/cron.allow - Adding CentOS user to run cron job
+setfacl -Rdm u:centos:rwx /opt/websrvr/
