@@ -53,6 +53,7 @@ which - System Utility Commands
 systemctl - Start/Stop Processes
 ps -aux | grep java - list running Processes
 kill - Kill Processes
+pkill - Process Kill
 top - Tells about System Resources
 crontab - Process Commands
 at - Process Commands
