@@ -12,6 +12,6 @@ chmod 600 /home/narayanan/.ssh/authorized_keys
 chown -R narayanan:narayanan /home/narayanan/.ssh
 
 # Delete the user along with the Home Directory
-userdel -D narayanan
+userdel -r narayanan
 
 
