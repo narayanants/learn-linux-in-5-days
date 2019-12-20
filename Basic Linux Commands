@@ -87,3 +87,4 @@ source /etc/profile - reload profile variables
 /etc/ssh/sshd_config - sshd config
 echo "centos" >> /etc/cron.allow - Adding CentOS user to run cron job
 setfacl -Rdm u:centos:rwx /opt/websrvr/
+env - List all the environment variables
