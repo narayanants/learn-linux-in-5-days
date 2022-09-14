@@ -1,0 +1,217 @@
+Linux Commands:
+----------------
+
+    Internal Commands
+    External Commands
+
+
+
+    Basic commands in Linux:
+    ------------------------
+
+        pwd
+        ls
+        mkdir Asia Africa Europe America
+        mkdir Asia/India/Mumbai
+        mkdir -p Asia/India/Mumbai
+        cd ..
+        Absolute Path and Relative Path
+        pushd
+        popd
+        mv source_path destination_path
+        rm
+        more file_name.txt
+        less file_name.txt
+        ls -l 
+        ls -a
+        ls -lt
+        ls -ltr
+        ls -ld
+        df -hP
+        du -sh
+        chsh
+        whatis
+        man 
+        date
+        history
+        env
+        export 
+        uname -r - Lists Linux Kernel Name and Version Number
+        dmesg
+        udevadm
+        lspci
+        lsblk
+        lscpu - CPU architecture
+        lsmem --summary
+        free -m 
+        lshw
+        tar -cf tar.tar file1 file2 file3
+        ping 192.168.1.10
+        cat >> /etc/hosts
+        hostname - hostname of the machine
+        curl
+        cat /etc/resolv.conf
+        nslookup www.google.com - DNS of the server
+        traceroute -  number of hops
+        netstat -an | grep 80 | grep -i LISTEN
+        useradd micheal
+        whoami
+        userdel bob
+        groupadd -g 1011 developer
+        groupdel developer
+        /etc/shadow
+        chmod 400 file.pem
+        chown ubuntu:ubuntu developer.txt
+        systemctl start docker
+        systemctl stop docker
+        systemctl restart docker
+        systemctl reload docker
+        systemctl enable docker
+        systemctl disable docker
+        etc/fstab
+        
+
+
+
+
+        Linux Kernel:
+        -------------
+
+            - Memory Management
+            - Process Management
+            - Device Drivers
+            - System calls and security
+
+        Boot Process:
+        -------------
+
+            - BIOS POST
+            - Boot Loader (GRUB2)
+            - Kernel Initialization
+            - INIT Process (SYSTEMD)
+
+        Run Levels:
+        -----------
+
+         - Runlevel 5 - GUI
+         - Runlevel 3 - Command Line
+
+         runlevel 0 -> poweroff.target
+
+            runlevel 1 -> rescue.target
+
+            runlevel 2 -> multi-user.target
+
+            runlevel 3 -> multi-user.target
+
+            runlevel 4 -> multi-user.target
+
+            runlevel 5 -> graphical.target
+
+            runlevel 6 -> reboot.target
+
+
+
+    File Types in Linux
+    -------------------
+
+    Files 
+    Directories
+    System Files
+    Sockets
+    Named Pipes
+    
+    Hard Link
+    Symbolic Link or Symblink
+
+
+    File System Hierarchy:
+    ----------------------
+
+        - /home
+        - /opt   - Third party software
+        - /mnt  - for mounting
+        - /tmp   - For temporary data
+        - /media - For USB drive, external media are mounted in media
+        - /dev   - mouse and Keyboard
+        - /bin  - basic programs and binaries
+        - /etc  - configuration Files
+        - /lib  - shared Libraries
+        - /usr  - user software
+        - /var  - variables data, logs and cached data
+
+
+    Linux Package Management:
+    -------------------------
+
+    Yum Package Manager:
+    ====================
+
+        - yum repolist
+        - yum provides scp
+        - yum remove
+        - yum update httpd
+    
+
+    Debian Package Manager:
+    =======================
+
+        - dpkg -i vscode.deb
+
+
+    File Compression:
+    =================
+      
+      - tar -cf tar.tar file1 file2 file3
+      - bzip2
+      - gzip
+      - xz
+
+      Uncompressing:
+      ==============
+
+        - bunzip2
+        - gunzip
+        - unxz
+
+    Searching Files and Directories:
+    ================================
+
+        - locate city.txt
+        - find /home/micheal -name city.txt
+        - grep 'sample.txt'
+        - grep -i capital city.txt
+        - grep -r 'third line' city.txt
+        - grep -w exam city.txt
+
+
+    IO Redirection:
+    ===============
+
+     Standard Input
+     Standard Output
+     Standard Error
+
+     
+     Linux Accounts:
+     ===============
+
+        - cat /etc/passwd
+        - cat /etc/group
+        - username UID GID
+        - id micheal
+        - who
+        - cat /etc/sudoers
+
+
+    CronJobs:
+    ---------
+
+        - crontab -e
+        - crontab -l
+
+
+
+    
+
+
