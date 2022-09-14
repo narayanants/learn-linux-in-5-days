@@ -68,7 +68,7 @@ Linux Commands:
         systemctl reload docker
         systemctl enable docker
         systemctl disable docker
-        etc/fstab
+        cat etc/fstab
         
 
 
