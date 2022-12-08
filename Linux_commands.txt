@@ -39,7 +39,7 @@ Linux Commands:
         uname -r - Lists Linux Kernel Name and Version Number
         dmesg
         udevadm
-        lspci
+        lspci - find out information about the PCI busses and devices connected to the PCI subsystem
         lsblk
         lscpu - CPU architecture
         lsmem --summary
