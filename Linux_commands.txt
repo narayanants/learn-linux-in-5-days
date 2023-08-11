@@ -41,7 +41,7 @@ Linux Commands:
         dmesg
         udevadm
         lspci - find out information about the PCI busses and devices connected to the PCI subsystem
-        lsblk
+        lsblk - Provides the free mem
         lscpu - CPU architecture
         lsmem --summary
         free -m 
@@ -57,21 +57,24 @@ Linux Commands:
         netstat -an | grep 80 | grep -i LISTEN
         netstat -a | more
         users
-        useradd micheal
-        whoami
-        userdel bob
+        useradd narayanan - Add a new user
+        usermod narayanan - Modifies the user
+        whoami - Shows the current user
+        userdel narayanan - Deletes the user
         groupadd -g 1011 developer
         groupdel developer
         /etc/shadow
-        chmod 400 file.pem
-        chown ubuntu:ubuntu developer.txt
+        chmod 400 file.pem - Sets permission to file
+        chown ubuntu:ubuntu developer.txt - Change ownership
         systemctl start docker
         systemctl stop docker
         systemctl restart docker
         systemctl reload docker
         systemctl enable docker
         systemctl disable docker
-        cat etc/fstab
+        cat etc/fstab - Shows the UUID
+        cat /etc/passwd - Shows the users and their encrypted password
+        cat /etc/shadow - Shows the users and the ID's
         
 
 
