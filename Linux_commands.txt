@@ -8,34 +8,35 @@ Linux Commands:
 
     Basic commands in Linux:
     ------------------------
-
-        pwd
-        ls
-        mkdir Asia Africa Europe America
-        mkdir Asia/India/Mumbai
-        mkdir -p Asia/India/Mumbai
-        cd ..
+        sudo su narayanan - switch to current user
+        pwd - present working directory
+        ls - list files
+        mkdir Asia Africa Europe America - All the listed folders will be created
+        mkdir Asia/India/Mumbai - All the listed folders will be created inside one another
+        mkdir -p Asia/India/Mumbai - Command will create Asia as parent directory and rest as child directories
+        cd .. - Change to previous directory
         Absolute Path and Relative Path
         pushd
         popd
-        mv source_path destination_path
-        rm
-        more file_name.txt
-        less file_name.txt
+        mv source_path destination_path - Move source path to destination path
+        rm - removes files
+        rm -rf - Remove files and Directories
+        more file_name.txt - Shows all the content
+        less file_name.txt - Shows all the content inside like a file
         ls -l 
         ls -a
         ls -lt
         ls -ltr
         ls -ld
-        df -hP
-        du -sh
+        df -hP - Show how much disk is used
+        du -sh - Show how much disk is free
         chsh
-        whatis
-        man 
-        date
-        history
-        env
-        export 
+        whatis - show whatis what?
+        man - Shows the manual of a command
+        date - Shows the date and time in UTC
+        history - history shows what commands I have used in the history
+        env - Shows environment variables
+        export - Export exports the variable
         uname -r - Lists Linux Kernel Name and Version Number
         dmesg
         udevadm
@@ -52,8 +53,10 @@ Linux Commands:
         curl
         cat /etc/resolv.conf
         nslookup www.google.com - DNS of the server
-        traceroute -  number of hops
+        traceroute www.google.com-  number of hops
         netstat -an | grep 80 | grep -i LISTEN
+        netstat -a | more
+        users
         useradd micheal
         whoami
         userdel bob
