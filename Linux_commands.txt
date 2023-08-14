@@ -41,7 +41,7 @@ Linux Commands:
         dmesg
         udevadm
         lspci - find out information about the PCI busses and devices connected to the PCI subsystem
-        lsblk - Provides the free mem
+        lsblk - Provides the Disk partition and size
         lscpu - CPU architecture
         lsmem --summary
         free -m 
