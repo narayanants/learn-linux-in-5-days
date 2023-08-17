@@ -41,6 +41,7 @@ userdel - Delete a user (cat /etc/shadow)
 groupadd - Create a Group
 groupmod - Modify a Group
 groupdel - Delete a Group
+gpasswd --delete narayanan Colleagues
 usermod -aG wheel awsmpadmin - add required local users to wheel group for sudo access
 sed -i 's/^#\s*\(%wheel\s*ALL=(ALL)\s*NOPASSWD:\s*ALL\)/\1/' /etc/sudoers - Set Wheel group to sudoers with no password
 su - username
